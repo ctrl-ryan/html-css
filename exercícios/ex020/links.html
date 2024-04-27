@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  rgb(255, 234, 208);
+        }
+        a{
+            color: #ffba81;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #fd8e44;
+        }
+        a:hover{
+            color: rgb(165, 197, 255);
+            text-decoration: underline;
+        }
+        a:active{
+            color: black;
+        }
+        a::after{ 
+            content: ' [Link]' ;
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(43, 153, 0);
+        }
+        
+    
+    </style>
+</head>
+<body><h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://github.com/gustavoguanabara" target="_blank">GitHub</a></li>
+            <li><a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0" target="_blank">Python</a></li>
+            <li><a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" target="_blank">Lógica de Programação</a></li>
+        </ul>
+</body>
+</html>

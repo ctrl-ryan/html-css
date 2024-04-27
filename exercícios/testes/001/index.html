@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão Movível</title>
+<style>
+  body{background-color: rgb(116, 224, 215);}
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #movableButton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body> <h1>Clique no Botão</h1>
+
+<button id="movableButton">Clique Aqui!</button>
+
+<script>
+    const button = document.getElementById('movableButton');
+
+    button.addEventListener('mouseover', () => {
+        const randomX = Math.random() * (window.innerWidth - button.offsetWidth);
+        const randomY = Math.random() * (window.innerHeight - button.offsetHeight);
+        button.style.left = `${randomX}px`;
+        button.style.top = `${randomY}px`;
+    });
+</script>
+</body>
+</html>

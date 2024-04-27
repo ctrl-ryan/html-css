@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: antiquewhite;
+    font-family: fantasy;
+    font-size: 20px;
+}
+h1  {
+    background-color: lightpink; width: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(112, 60, 255);
+    
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: rgb(249, 81, 255);
+}
+p{
+    color: rgb(40, 0, 116);
+}
+a{
+    color: rgb(190, 44, 0);
+}

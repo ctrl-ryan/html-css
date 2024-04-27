@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alfa+Slab+One&family=Bebas+Neue&family=Courgette&family=Jacquard+24&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(217deg, #ec213fc9, #9121ec 70%),
+    linear-gradient(127deg, #2179ec, #35d7f3 70%), linear-gradient(336deg, #ee7789, #ffaeae 70%);
+    margin: 0px;
+}
+header{
+    box-shadow: 1px 1px 4px black;
+    color: white;
+    background:linear-gradient(to bottom,#ac64a9 , #d37ed1, #ac64a9);
+
+    text-align: center;
+    margin: auto;
+
+    border: 1px solid black;
+    border-radius: 1px;
+
+    
+}
+header > #título {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 50px;
+
+    margin-bottom: -23px;
+    padding: 10px;
+    text-shadow: 1px 1px 4px #9c5b9b;
+}
+header > h1 > p { 
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color: #73c585;
+    text-shadow: 1px 1px 2px #41744c;
+    text-align: center;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+
+    box-shadow: 1px 1px 4px black;
+    
+    width: 480px;
+    margin: auto;
+}
+#youtube{
+    width: 40px;
+}
+#youtube:hover{
+    -ms-zoom-animation: default;
+}
+article{
+    background-color: rgb(255, 227, 255);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0.10px black;
+}
+article > p{
+    padding: 20px;
+}
+aside{
+    background-color: #9c5b9b;
+    color: white;
+    padding-left: 20px;
+    
+}
+#outras-informaçoes{
+    background: linear-gradient(to top, #F0ADEF, #fcd6fb);
+    border: 1px solid black;
+    padding: 0px;
+}
+#outras-informaçoes > p{
+    margin: 3px;
+    text-align: center;
+}
+#outras-informaçoes > span {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    padding: px;
+}
+main{
+    background-color: rgb(245, 214, 243);
+    margin: auto;
+    padding: 20px;
+}
+#rumores > h2 {
+    margin: 0px;
+}
+#rumores{
+    margin: auto;
+}
+a{
+    text-decoration: #709C5A;
+    color: rgb(0, 243, 130);
+    text-shadow: 0.1px 0.1px 1px;
+}
+a:hover{
+    color: rgb(56, 177, 0);
+}
+aside{
+    font-size: 9px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+footer{
+    color: #ffc4ff;
+    background-color: #332533;
+    height: 161px;
+    border: 2px solid #000000;
+    text-align: center;
+
+}
+footer > p{
+    margin: 0px;
+    font-size: 10px;
+    padding: 20px;
+}
+.informaçoes > a {
+    color: white;
+    margin: 0px 40px 40px 20px;
+    padding-bottom: px;
+
+}
+#direitos{
+    background-color: black;
+    padding: 2px;
+}
+

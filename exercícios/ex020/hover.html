@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alfa+Slab+One&family=Courgette&family=Jacquard+24&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap');
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {
+            color: lightblue;
+        }
+        div > p {
+            display: none;
+            font-size: 10em;
+            text-align: center;
+            font-family: "Tac One", Arial, sans-serif;
+        }
+        div:hover > p {
+            display: block;
+            color: red;
+            
+        }
+        #memata{
+            font-size: 10px;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui!
+        <p>BOO!</p>
+        <p id="memata">alguem me m-</p>
+    </div>
+    <p>xisdê</p>
+    
+</body>
+</html>

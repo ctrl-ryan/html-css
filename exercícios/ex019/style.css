@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Courgette&family=Jacquard+24&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Courgette&family=Jacquard+24&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tac+One&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 50em;
+    background-color: rgb(255, 244, 230);
+}
+h1{
+    color:#C2693E ;
+    font-family: "Jersey 25";
+    font-weight: bold;
+}
+#principal{
+    color: #6D5347;
+    font-family:"Aladin";
+    font-weight: normal;
+    font-size: 4em;
+    margin-top: 16px;
+    margin-bottom: -5px;
+}
+.exemplo-a {
+    color: #c78905;
+}
+.exemplo-b{
+    color: #3ec2b7;
+}
+p{
+    color: #6e3b23;
+    text-align: justify;
+}
+.background{
+    background-color: #C2693E;
+}
+#texto-branco {
+    color: white;
+}
+

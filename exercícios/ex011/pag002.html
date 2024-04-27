@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5 página02</title>
+</head>
+<style>
+    body{background-color: rgb(156, 182, 255);}
+</style>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos de tamanhos diferentes, ou mude o tamanho da resoluçao do navegador.</p>
+    <p>Imagem:</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagenstamanhos/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagenstamanhos/foto-m.png" type="image/png">
+        <source media="(max-width)" srcset="" type="image/">
+        <img src="imagenstamanhos/foto-g.png" alt="foto grande">
+    </picture>
+    <p>Aqui eu fiz o mesmo processo, mas com os códigos em ordem invertida.</p>
+
+    <p><a href="./index.html" rel="prev" target="_self">Voltar.</a></p>
+    
+</body>
+</html>

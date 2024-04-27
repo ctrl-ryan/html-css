@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{background-color: #B7B5F6;}
+    </style>
+    
+</head>
+<body><h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos de tamanhos diferentes, ou mude o tamanho da resoluçao do navegador.</p>
+
+    <p>Imagem:</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagenstamanhos/foto-p.png" type="image/png">
+        <source media="(max-width:1100px )" srcset="imagenstamanhos/foto-m.png" type="image/png">
+        <img src="imagenstamanhos/foto-g.png" alt="Imagem grande">
+    </picture>
+    <h1>Exemplo com o código ao contrário.</h1>
+    <p>Fiz a mesma coisa, só que no código coloquei da imagem menor para a maior, clique abaixo para ver:</p>
+    
+    <p><a href="pag002.html" target="_self" rel="next"><img src="imagenstamanhos/codigo.jpg" alt="imagem do codigo reverso"><br>Clique aqui. </a></p>
+<h1>Outro exemplo</h1>
+<p>Exemplo com a Splash Art da Akali</p>
+<a href="pag003.html" rel="next" target="_self"><img src="exemploreal/akali-m.jpg" alt="Akali de League of legends."></a>
+<p><a href="pag003.html" rel="next" target="_self">Clique aqui</a></p>
+
+<h1>Usando aúdios</h1>
+<h2>Também podemos atribuir aúdios no nosso site.</h2>
+<p>Temos esta maneira mais simples:</p>
+<audio src="midia/musica1.mp3" autoplay controls></audio> 
+
+<p>Temos esta outra maneira mais compatível com navegadores:</p>
+<audio preload="metadata" autoplay controls loop>
+    <source src="midia/musica2.mp3" type="audio/mpeg"> 
+    <source src="midia/musica2.mp3" type="audio/ogg">
+    <source src="midia/musica2.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador nao suporta aúdios. =/</p>
+</audio>
+
+</body>
+</html>
